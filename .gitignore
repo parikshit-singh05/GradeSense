@@ -1,0 +1,30 @@
+# Virtual environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data caches
+data/*.zip
+data/student+performance/
+
+# Model artifacts are tracked in the repo so Streamlit Cloud (and
+# any other clone of this project) has a ready-to-run app. If you
+# re-train and want to keep the new artifacts out of git, re-add
+# these lines to the ignore list.
+# model/*.pkl
+# model/*.joblib
+
+# Local SQLite logs (runtime artifact, created by app/main.py).
+# Streamlit Cloud gives each deploy a fresh container, so the
+# in-repo app/history.db will be created on first launch and reset
+# on every redeploy — that's expected for a portfolio project.
+app/history.db

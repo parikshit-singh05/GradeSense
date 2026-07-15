@@ -1,0 +1,12 @@
+{
+  "model": "RandomForestRegressor",
+  "params": {
+    "n_estimators": 500,
+    "max_depth": null,
+    "min_samples_leaf": 3
+  },
+  "test_rmse": 3.8335391748160137,
+  "test_mae": 3.0684376211692665,
+  "test_r2": 0.2832973066228325,
+  "rmse_baseline": 4.550180652162387
+}

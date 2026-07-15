@@ -1,0 +1,19 @@
+[theme]
+# Base — off-white surface. Slightly cooler than pure #FFFFFF so the
+# surface feels like a designed background, not a blank canvas.
+base = "light"
+backgroundColor = "#F8FAFC"
+secondaryBackgroundColor = "#FFFFFF"
+
+# Text — deep slate. Stronger than medium gray, weaker than pure black,
+# so headings read with weight but body copy doesn't shout.
+textColor = "#0F172A"
+
+# Accent — indigo. Used for slider tracks, focus rings, primary links,
+# active tab indicators, etc. The chart palette in app/main.py
+# references the same hue family so the accent reads as one design
+# choice across the whole app, not as three different accents.
+primaryColor = "#4F46E5"
+
+# Font — sans-serif (Inter, loaded via CSS in main.py).
+font = "sans serif"
